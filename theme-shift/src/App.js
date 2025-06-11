@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import Header from './Header';
+import Header from './components/Header';
+import ThemeToggle from './components/ThemeToggle';
 import './App.css';
 
 function App() {
   return (
-    <Header />
+    <div className="app">
+      <Header />
+      <ThemeToggle />
+    </div>
   );
 }
 
